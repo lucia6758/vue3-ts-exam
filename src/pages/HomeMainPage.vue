@@ -1,5 +1,5 @@
 <template>
-  <TitleBar title="홈 메인" />
+  <TitleBar>메인</TitleBar>
 </template>
 
 <script lang="ts">
