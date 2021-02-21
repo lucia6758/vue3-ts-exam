@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
+import TitleBar from './components/TitleBar.vue';
 import HomeMainPage from './pages/HomeMainPage.vue'
 import ArticleListPage from './pages/ArticleListPage.vue'
 import './index.css'
@@ -13,8 +14,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes
-})
+});
 
-const app = createApp(App)
-app.use(router)
-app.mount('#app')
+const app = createApp(App);
+
+app.component('TitleBar', TitleBar);
+app.use(router);
+app.mount('#app');
