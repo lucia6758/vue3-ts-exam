@@ -38,6 +38,10 @@ export default defineComponent({
 })
 </script>
 
+<style lang="postcss">
+
+</style>
+
 <style>
 html, body {
   margin:0;
