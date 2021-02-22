@@ -6,7 +6,7 @@
         <FormRow title="제목">
           <input class="form-row-input" type="text" placeholder="제목을 입력해주세요">
         </FormRow>
-        <FormRow>
+        <FormRow title="내용">
           <textarea class="form-row-input" placeholder="내용을 입력해주세요."></textarea>
         </FormRow> 
         <FormRow>
