@@ -10,7 +10,14 @@
           <textarea class="form-row-input" placeholder="내용을 입력해주세요."></textarea>
         </FormRow> 
         <FormRow>
-          <input class="btn-primary" type="button" value="작성" />
+          <div class="btns">
+            <input type="button" value="작성" class="btn-primary" />
+            <input type="button" value="작성" class="btn-secondary" />
+            <input type="button" value="작성" class="btn-success" />
+            <input type="button" value="작성" class="btn-danger" />
+            <input type="button" value="작성" class="btn-warning" />
+            <input type="button" value="작성" class="btn-info" />
+          </div>
         </FormRow>
       </form>
     </div>
